@@ -1,0 +1,107 @@
+body {
+    font-family:italica; 
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: rgba(255, 182, 193, 0.5);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(90deg, #9c7bf7, #eb66a8);
+    padding: 20px 0; 
+    border-bottom: 2px solid #ecb5f3;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    color: #f5f0f3;
+    font-size: 2.0em; 
+    letter-spacing: 1px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 25px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fdfafd;
+    font-weight: bold;
+    transition: color 0.3s, text-shadow 0.3s; 
+}
+
+nav ul li a:hover {
+    color: #da0b95;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); 
+}
+
+.hero {
+    background: linear-gradient(90deg, #9c7bf7, #fa45a0);
+    padding: 5px 2px; 
+    text-align: center;
+    border-radius: 500px;
+    box-shadow:linear-gradient(90deg, #9c7bf7, #fa45a0);
+}
+
+.hero h1 {
+    font-size: 2.5em; 
+}
+
+.products {
+    padding: 40px 0;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; 
+    justify-content: center;
+}
+
+.product {
+    background: #ffffff; 
+    border: 1px solid #b62ef5;
+    border-radius: 8px;
+    padding: 20px; 
+    text-align: center;
+    width: 200px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.product:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    background: #d29aff;
+    color: #ff12eb;
+    text-align: center;
+    padding: 25px 0; 
+    border-top: 2px solid #fcacf1;
+    font-size: 0.9em; 
+}
+
+footer p {
+    margin: 0; 
+}
